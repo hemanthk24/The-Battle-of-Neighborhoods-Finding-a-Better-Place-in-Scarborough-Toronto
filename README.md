@@ -78,6 +78,6 @@ This repository contains the code, analysis, and results submitted as part of th
 ---
 
 ## 👤 Author
-
-**Your Name**  
+K. Hemanth Goud
 IBM Data Science Professional Certificate Candidate  
+

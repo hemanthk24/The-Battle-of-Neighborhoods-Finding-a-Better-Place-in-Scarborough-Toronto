@@ -1,21 +1,83 @@
-# IBM Data Science Professional Certificate | Applied Data Science Capstone
-Coursera Course Link: https://www.coursera.org/professional-certificates/ibm-data-science 
+# 🏙️ The Battle of Neighborhoods – Finding a Better Place in Scarborough, Toronto  
+**IBM Applied Data Science Capstone Project**
 
-## Instructions: 
-In this week, you will continue working on your capstone project. Please remember by the end of this week, you will need to submit the following:
+---
 
-1. A full report consisting of all of the following components (**15 marks**):
-  > - Introduction where you discuss the business problem and who would be interested in this project.
-  > - Data where you describe the data that will be used to solve the problem and the source of the data.
-  > - Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
-  > - Results section where you discuss the results.
-  > - Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
-  > - Conclusion section where you conclude the report.
-2. A link to your Notebook on your Github repository pushed showing your code. (**15 marks**)
-3. Your choice of a presentation or blogpost. (**10 marks**)
+## 📌 Project Overview
 
-**Here are examples of my submissions that should give you an idea of what your report would look like, what your notebook would look like in terms of clean, clear, and well-commented code, and what your presentation would look like or your blogpost would look like**:
+This project is part of the **IBM Data Science Professional Certificate – Applied Data Science Capstone** on Coursera. The objective is to analyze and compare neighborhoods in Scarborough, Toronto using data science and machine learning techniques in order to recommend suitable locations for residents, businesses, and urban planners.
 
-> 1. Report: http://bit.ly/31RseTc
-> 2. Notebook: http://bit.ly/2ORu9lj
-> 3. Blogpost: http://bit.ly/2Sm4ALm
+The project uses location-based data and clustering to group neighborhoods based on venue characteristics such as restaurants, parks, schools, and entertainment facilities.
+
+---
+
+## 🎯 Business Problem
+
+Scarborough is a diverse district with neighborhoods offering different lifestyle environments. Choosing the right neighborhood can be difficult for newcomers.
+
+**Goal:**  
+Use data science to identify similarities between neighborhoods and provide data-driven recommendations for selecting the best place to live based on venue density and neighborhood profiles.
+
+---
+
+## 🗂 Data Sources
+
+- Toronto neighborhood and postal code datasets (public sources)  
+- Venue data from the **Foursquare API**  
+- Geographic coordinates (latitude and longitude)
+
+---
+
+## ⚙️ Methodology
+
+1. Data collection and preprocessing  
+2. Exploratory data analysis (EDA)  
+3. Feature engineering using venue frequency  
+4. Neighborhood clustering using **K-Means**  
+5. Visualization of clusters on maps  
+
+---
+
+## 📊 Results
+
+The model grouped neighborhoods into clusters representing:
+- Residential-focused areas  
+- Entertainment and dining hubs  
+- Mixed commercial zones  
+
+This allows users to compare neighborhoods based on lifestyle and infrastructure.
+
+---
+
+## 🛠 Tools & Technologies
+
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn, Folium  
+- Scikit-learn  
+- Foursquare API  
+- Jupyter Notebook / IBM Watson Studio  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- API-based data collection  
+- Data cleaning and preprocessing  
+- Exploratory data analysis  
+- Unsupervised machine learning (clustering)  
+- Geospatial visualization  
+- Business problem framing  
+
+---
+
+## 📎 Project Context
+
+This repository contains the code, analysis, and results submitted as part of the **IBM Applied Data Science Capstone** final project on Coursera.
+
+---
+
+## 👤 Author
+
+**Your Name**  
+IBM Data Science Professional Certificate Candidate  
